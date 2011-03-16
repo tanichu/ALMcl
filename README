@@ -1,0 +1,10 @@
+ALMcl is a monte calro localization libraly for rigel project.
+Odometry model with rotating camera is adopted.
+
+ALMcl.h: header file
+ALMcl.cpp: sourse file 
+
+
+
+
+
