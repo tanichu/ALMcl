@@ -5,6 +5,24 @@ ALMcl.h: header file
 ALMcl.cpp: sourse file 
 
 
+A robot obtain a sensory input (vision data)
+which contains several landmarks.
+Each landmark is represented by v_i =(r_i, \theta_i)
+drovector v_i (vision)
+
+view is a dgematrix which contains several vision data.
+
+the most accurately predicted vision contained in view
+is used to updated particles.
+
+
+drovector pos
+is estimated position data.
+pos = (p_x,p_y,p_\theta,p_\phi)
+
+p_\theta   .... direction of body (right hand system)
+p_\phi   ... angle between body and head
+
 
 
 
